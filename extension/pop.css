@@ -1,1 +1,78 @@
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e1b4b, #312e81);
+  color: white;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.highlight {
+  color: #a78bfa;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #8b5cf6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #7c3aed;
+}
+
+.signup-link {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.signup-link a {
+  color: #c4b5fd;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
