@@ -1,0 +1,67 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# === Virtual Environments ===
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Jupyter Notebooks (if used for prototyping NLP) ===
+.ipynb_checkpoints
+
+# === Streamlit ===
+.streamlit/config.toml
+
+# === OS / System Files ===
+.DS_Store
+Thumbs.db
+
+# === Chrome Extension ===
+*.crx
+*.zip
+*.pem
+
+# === Node Modules (if any frontend is using npm/webpack later) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Log Files ===
+*.log
+
+# === Secrets / Credentials (if any) ===
+.env
+.env.local
+.env.*.local
+
+# === Coverage / Testing ===
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
