@@ -33,4 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     userInfo.style.display = "block";
   }
 });
+// Reserved for any future non-auth UI logic
+console.log("Saniraa popup loaded.");
+
 
